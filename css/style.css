@@ -709,3 +709,34 @@ img {
   opacity: 0.6;
 }
 
+
+/* SITE-FOOTER */
+.site-footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  border-top: 2px solid #C4C4C4;
+}
+
+.site-footer__logo {
+  width: 106px;
+  height: 54px;
+  text-decoration: none;
+}
+
+.logo__img {
+  display: block;
+}
+
+.site-footer-link {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #8F95A5;
+}
+
+
