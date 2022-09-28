@@ -70,6 +70,86 @@ img {
 }
 
 
+/* BUTTON */
+.button {
+  padding: 17px 57px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  text-decoration: none;
+  border: 2px solid #263238;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.button:active {
+  background-color: #fff;
+  color: #000;
+  opacity: 0.6;
+}
+
+.button-big {
+  display: inline-block;
+  padding: 32px 117px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  background-color: #263238;
+  border-radius: 15px;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #000;
+  white-space: nowrap;
+}
+
+.button-big:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.button-big:active {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.button-small {
+  display: inline-block;
+  padding: 17px 63px;
+  background-color: #263238;
+  border-radius: 5px;
+  border: 2px solid #263238;
+  text-decoration: none;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+}
+
+.button-small:hover {
+  background-color: #fff;
+  color: #263238;
+}
+
+.button-small:active {
+  background-color: #263238;
+  color: #fff;
+  opacity: 0.6;
+}
+
+
+
 /* SITE-HEADER */
 .site-header {
   padding-top: 71px;
@@ -91,9 +171,6 @@ img {
 
 .logo__img {
   display: block;
-}
-
-.sitenav {
 }
 
 .sitenav__list {
@@ -119,29 +196,22 @@ img {
   text-decoration: none;
 }
 
-.button {
-  padding: 17px 57px;
-  font-family: "Poppins", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  color: #000000;
-  text-decoration: none;
-  border: 2px solid #263238;
-  border-radius: 5px;
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
 }
 
 
 /* HERO */
 .hero {
-  /* display: flex; */
+
   margin-bottom: 147px;
 }
 
 .hero__container {
-  display: flex;
   position: relative;
+  /* margin-bottom: 147px; */
 }
 
 .hero__left {
@@ -175,30 +245,205 @@ img {
   color: #8F95A5;
 }
 
-.button-big {
-  padding: 32px 117px;
-  font-family: "Poppins", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 54px;
-  background-color: #263238;
-  border-radius: 15px;
-  color: #fff;
-  text-decoration: none;
-}
-
 .hero__img {
   position: absolute;
   top: -66px;
   right: -15px;
   width: 924px;
   height: 661px;
-  z-index: -22;
 }
 
 
-/* MAIN-CONTENT */
-.main-content {
-  flex-grow: 1;
+/* FEATURES */
+.features {
+  margin-bottom: 282px;
 }
+
+.features__title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 96px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: #000000;
+  text-align: center;
+}
+
+.features-card__wrapper {
+  display: flex;
+}
+
+.features-card__left {
+  width: 100%;
+  max-width: 435px;
+  padding-bottom: 92px;
+  margin-right: 18px;
+  background-color: #f5f5f5;
+}
+
+.features-card__left-img {
+  display: block;
+  width: 100%;
+  height: 390px;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-bottom: 5px;
+}
+
+.features-card__left-content {
+  padding-left: 44px;
+  padding-right: 44px;
+}
+
+.features-card__heading {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 80px;
+  color: #263238;
+}
+
+
+.features-card__text {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 36px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8F95A5;
+}
+
+/* RIGHT */
+.features-card__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.features-card__right-wrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.skill-card__writing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 434px;
+  background-color: #f5f5f5;
+  margin-right: 18px;
+}
+
+.features-card__writing-img {
+  display: block;
+  width: 293px;
+  height: 293px;
+  margin-left: auto;
+  margin-bottom: 5px;
+  padding-right: 19px;
+}
+
+.features-card__writing-content {
+  padding-left: 42px;
+  padding-bottom: 44px;
+}
+
+.features-card__writing-heading {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 62px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 80px;
+  color: #263238;
+}
+
+.features-card__reading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  /* max-width: 435px; */
+  background-color: #f5f5f5;
+}
+
+.features-card__reading-img {
+  display: block;
+  width: 371px;
+  height: 247px;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+.features-card__reading-content {
+  padding-left: 41px;
+  padding-right: 41px;
+  padding-bottom: 44px;
+}
+
+.features-card__reading-text {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 35px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8F95A5;
+}
+
+.features-card__listening {
+  display: flex;
+
+  background-color: #f5f5f5;
+}
+
+.features-card__listening-content {
+  padding: 44px 25px 44px 44px;
+}
+
+.features-card__listening-heading {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 80px;
+  color: #263238;
+}
+
+.features-card__listening-text {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8F95A5;
+}
+
+.features-card__listening-img {
+  display: block;
+  width: 382px;
+  height: 255px;
+}
+
+
+
