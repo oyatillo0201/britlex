@@ -537,3 +537,102 @@ img {
 }
 
 
+/* PRICING */
+.pricing {
+  margin-bottom: 200px;
+}
+
+.pricing__heading {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 57px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: #000000;
+  text-align: center;
+}
+
+.pricing__list {
+  display: flex;
+  /* align-items: flex-start; */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pricing__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 436px;
+  margin-right: 20px;
+}
+
+.pricing__img {
+  display: block;
+  object-fit: contain;
+  margin-bottom: auto;
+}
+
+
+.pricing__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pricing__content-heading {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 19px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  color: #263238;
+}
+
+.pricing__content-text {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 29px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #8F95A5;
+}
+
+.price-info {
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 18px;
+  background-color: #f5f5f5;
+}
+
+.price-info b {
+  margin-right: 8px;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #263238;
+}
+
+.price-info__description {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #546269;
+}
+
