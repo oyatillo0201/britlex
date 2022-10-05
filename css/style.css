@@ -293,7 +293,7 @@ img {
 .speaking {
   grid-column-start: 1;
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 3;
 }
 
 .speaking__img {
@@ -444,30 +444,6 @@ img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ABOUT US */
 .about-us {
   margin-bottom: 200px;
@@ -589,15 +565,22 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  max-width: 436px;
-  margin-right: 20px;
+  width: calc((100% - 100px) / 3);
+  margin-bottom: 80px;
+  min-height: 580px;
+}
+
+.pricing__item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .pricing__img {
   display: block;
+  max-width: 100%;
+  height: auto;
   object-fit: contain;
   margin-bottom: auto;
+
 }
 
 
@@ -605,6 +588,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  min-height: 260px;
 }
 
 .pricing__content-heading {
@@ -634,9 +618,15 @@ img {
 .price-info {
   display: flex;
   align-items: center;
-  padding-left: 18px;
-  padding-right: 18px;
-  background-color: #f5f5f5;
+  justify-content: center;
+  padding: 10px;
+  font-size: 18px;
+  color: #546269;
+  text-align: center;
+  min-width: 240px;
+  margin-top: auto;
+  border-radius: 5px;
+  background-color: #eeeeee;
 }
 
 .price-info b {
@@ -699,6 +689,10 @@ img {
   color: #8F95A5;
 }
 
+.form {
+  display: flex;
+}
+
 .form__input {
   width: 100%;
   max-width: 450px;
@@ -752,14 +746,39 @@ img {
   display: block;
 }
 
-.site-footer-link {
-  font-family: "Poppins", "Arial", sans-serif;
+.site-footer__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-footer__item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.site-footer__item:not(:first-child)::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #8F95A5;
+  margin-right: 10px;
+  display: inline-block;
+
+}
+
+.site-footer__link {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
   color: #8F95A5;
+  text-decoration: none;
 }
+
 
 
 
