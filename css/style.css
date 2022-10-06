@@ -739,6 +739,7 @@ img {
 .site-footer__logo {
   width: 106px;
   height: 54px;
+  margin-right: 20px;
   text-decoration: none;
 }
 
@@ -777,6 +778,7 @@ img {
   line-height: 36px;
   color: #8F95A5;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 
