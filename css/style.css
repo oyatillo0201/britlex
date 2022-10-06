@@ -757,7 +757,7 @@ img {
 .site-footer__item {
   display: flex;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 12px;
 }
 
 .site-footer__item:not(:first-child)::before {
