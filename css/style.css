@@ -844,6 +844,292 @@ img {
     border-radius: 5px;
   }
 
+
+  /* HERO */
+  .hero {
+    margin-bottom: 72px;
+  }
+
+  .hero__left {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .hero__heading {
+    margin-bottom: 27px;
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+    text-transform: capitalize;
+  }
+
+  .hero__text {
+    margin-bottom: 33px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .button-big {
+    padding: 22px 78px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+
+  /* FEATURES */
+.features {
+  margin-bottom: 106px;
+}
+
+.features__title {
+  margin-bottom: 53px;
+  font-size: 36px;
+}
+
+
+.features__list {
+  grid-template-columns: 303px 303px 303px;
+  grid-gap: 12px;
+}
+
+.features__item {
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #f5f5f5;
+  border: 0;
+  border-radius: 10px;
+
+}
+
+.speaking {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.speaking__img {
+  display: block;
+  width: 100%;
+  height: 390px;
+}
+
+.speaking__info {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 52px;
+}
+
+.speaking__info-heading {
+  margin-bottom: 5px;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.speaking__info-text {
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.writing__img {
+  display: block;
+  margin-left: auto;
+  width: 293px;
+  height: 293px;
+}
+
+.writing__info {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.writing__info-heading {
+  margin-bottom: 5px;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.writing__info-text {
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 21px;
+  }
+
+.reading__img {
+  display: block;
+  width: 341px;
+  height: 247px;
+  margin-right: auto;
+  margin-bottom: 45px;
+  }
+
+.reading__info {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  }
+
+.reading__info-heading {
+  margin-bottom: 5px;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.reading__info-text {
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.listening__info {
+  padding: 29px 34px;
+}
+
+.listening__info-heading {
+  margin-bottom: 5px;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.listening__info-text {
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.listening__img {
+  display: block;
+  width: 382px;
+  height: 255px;
+}
+
+.button-small {
+  padding: 10px 41px;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+
+/* ABOUT US */
+.about-us {
+  margin-bottom: 125px;
+}
+
+.about-us__info-wrapper {
+  width: 100%;
+  max-width: 484px;
+  margin-right: ;
+}
+
+.about-us__heading {
+  margin-bottom: 13px;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.about-us__text {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about-us__nummer-info {
+  padding: 0;
+  margin: 0;
+}
+
+.about-us__info-nummer {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-left: -40px;
+}
+
+.info-about-us {
+  margin-right: 60px;
+}
+
+.about-us__list {
+  font-size: 16px;
+  line-height: 24px;
+
+}
+.about-us__description {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.about-us__img {
+  display: block;
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+
+
+/* PRICING */
+.pricing {
+  margin-bottom: 136px;
+}
+
+.pricing__heading {
+  margin-bottom: 20px;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.pricing__item {
+  width: calc((100% - 82px) / 3);
+}
+
+.pricing__item:not(:last-child) {
+  margin-right: 41px;
+}
+
+.pricing__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: auto;
+}
+
+.pricing__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 260px;
+}
+
+.pricing__content-heading {
+  margin-bottom: 14px;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.pricing__content-text {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.price-info b {
+  margin-right: 8px;
+  font-size: 24px;
+  line-height: 36px
+}
+
+.price-info__description {
+  font-size: 16px;
+  line-height: 24px;
+}
+
 }
 
 
